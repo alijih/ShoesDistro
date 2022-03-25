@@ -1,0 +1,62 @@
+.boxes{
+    height: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2px;
+    box-shadow: 0px -1px 1px black;
+
+}
+.seccion1{
+    height: min-content;
+    width: 90%;
+    background: linear-gradient(90deg, #FFE3BF 0%, #FFE1BE 6.67%, #FFDBBC 13.33%, #FED1B8 20%, #FEC2B3 26.67%, #FEB0AC 33.33%, #FD9AA4 40%, #FC829C 46.67%, #FB6993 53.33%, #FB508A 60%, #FA3A82 66.67%, #FA287C 73.33%, #F91A76 80%, #F90F73 86.67%, #F90A71 93.33%, #F90870 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+.part1,.part2{
+    width: 30vw;
+    padding-top: 1.5rem;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    
+}
+.part1 img{
+    transform: scale(0.7);
+}
+.part2 img{
+    margin-top: -0.5rem;
+    transform: scale(0.7);
+}
+.part3{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.boxes .seccion1 .part1 .icon{
+    margin-top: -5rem;
+}
+.boxes .seccion1 .part2 .icon{
+    margin-top: -4rem;
+}
+.circulo{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #00FFA7 0%, #00D9F5 100%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid white;
+    padding-top: 20px;
+    margin: 1rem auto;
+
+}
+.circulo img{
+    transform: scale(1.7);
+}

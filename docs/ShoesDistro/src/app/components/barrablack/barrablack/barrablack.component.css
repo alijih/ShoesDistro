@@ -1,0 +1,18 @@
+.barrablack{
+    display: flex;
+    padding: 1rem 7rem;
+    margin-top: 2px;
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    box-shadow:0 1px 1px black,0 -1px 1px black ;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center; 
+     
+}
+.barrablack a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
